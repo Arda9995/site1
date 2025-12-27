@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": {
+      "line1": "Crafting Strength",
+      "line2": "Through Metal"
+    },
+    "subtitle": "Professional welding services delivering precision, quality, and durability",
+    "cta": {
+      "viewWork": "View My Work",
+      "contact": "Get In Touch"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Transforming metal into masterpieces through precision and passion",
+    "journeyTitle": "My Journey",
+    "journey1": "With years of experience in professional welding, I've dedicated my career to mastering the art and science of metalwork. Every project is an opportunity to showcase precision, attention to detail, and unwavering commitment to quality.",
+    "journey2": "From structural steel work to custom fabrication, I approach each job with the same level of professionalism and expertise. My work speaks for itself through the strength and beauty of every weld.",
+    "journey3": "I believe in building lasting relationships with my clients by delivering exceptional results that exceed expectations. Your project isn't just another job—it's a reflection of my craft and reputation.",
+    "whyChooseMe": "Why Choose Me",
+    "features": [
+      {
+        "icon": "Award",
+        "title": "Certified Professional",
+        "description": "Fully certified and experienced in all welding techniques"
+      },
+      {
+        "icon": "Shield",
+        "title": "Quality Assured",
+        "description": "Every project meets the highest standards of quality and safety"
+      },
+      {
+        "icon": "Clock",
+        "title": "Timely Delivery",
+        "description": "Projects completed on schedule without compromising quality"
+      },
+      {
+        "icon": "Users",
+        "title": "Client Focused",
+        "description": "Dedicated to understanding and exceeding client expectations"
+      }
+    ]
+  },
+  "projects": {
+    "title": "My Projects",
+    "subtitle": "Explore a collection of my latest welding projects and metalwork creations.",
+    "recent": "Recent",
+    "viewDetails": "View Details",
+    "noProjects": "No projects found. Check back soon!",
+    "categories": {
+      "fabrication": "Fabrication",
+      "structural": "Structural",
+      "artistic": "Artistic",
+      "industrial": "Industrial",
+      "residential": "Residential"
+    },
+    "precisionMetalFabrication": {
+      "title": "Precision Metal Fabrication",
+      "description": "Expert metal fabrication with clean, precise welding work.",
+      "detailedDescription": "This project showcases our precision metal fabrication capabilities with clean, professional welding work. The piece demonstrates attention to detail and quality craftsmanship in metalworking."
+    },
+    "structuralSteelWork": {
+      "title": "Structural Steel Work",
+      "description": "Heavy-duty structural steel welding for industrial applications.",
+      "detailedDescription": "Professional structural steel work demonstrating strong, reliable welds for industrial applications. This project highlights our ability to work with heavy materials and create durable structures."
+    },
+    "customMetalArtPiece": {
+      "title": "Custom Metal Art Piece",
+      "description": "Artistic metal creation showcasing welding artistry.",
+      "detailedDescription": "A unique metal art piece that combines artistic vision with expert welding techniques. This custom creation demonstrates the beauty that can be achieved through skilled metalwork."
+    },
+    "industrialMetalFramework": {
+      "title": "Industrial Metal Framework",
+      "description": "Heavy-duty metal framework construction with precision welding.",
+      "detailedDescription": "This industrial framework project showcases our ability to create strong, precise metal structures. The clean welds and solid construction demonstrate professional metalworking skills."
+    },
+    "decorativeMetalRailing": {
+      "title": "Decorative Metal Railing",
+      "description": "Elegant metal railing with custom design elements.",
+      "detailedDescription": "This decorative railing combines functionality with aesthetic appeal. The custom design features clean lines and precise welding, creating a beautiful and durable addition to any space."
+    },
+    "metalSculptureInstallation": {
+      "title": "Metal Sculpture Installation",
+      "description": "Artistic metal sculpture with intricate welding details.",
+      "detailedDescription": "This metal sculpture showcases the artistic potential of welding. The piece features intricate details and demonstrates how metal can be transformed into beautiful, flowing forms."
+    },
+    "customMetalGateDesign": {
+      "title": "Custom Metal Gate Design",
+      "description": "Handcrafted metal gate with unique design elements.",
+      "detailedDescription": "This custom metal gate combines security with artistic design. The piece features clean lines and precise welding, creating a beautiful and functional entrance."
+    },
+    "industrialMetalStructure": {
+      "title": "Industrial Metal Structure",
+      "description": "Heavy-duty metal structure with professional welding.",
+      "detailedDescription": "This industrial structure demonstrates our expertise in large-scale metal fabrication. The project features precise welding and structural integrity for industrial applications."
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to start your project? Let's discuss how I can help",
+    "contactInfo": "Contact Information",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "cityState": "Your City, State",
+    "linkedin": "Connect on LinkedIn",
+    "responseTime": "I typically respond within 24 hours. For urgent matters, please call directly."
+  },
+  "projectDetail": {
+    "notFound": "Project Not Found",
+    "backToProjects": "Back to Projects",
+    "projectGallery": "Project Gallery",
+    "completionDate": "Completion Date",
+    "category": "Category",
+    "projectDescription": "Project Description",
+    "keyFeatures": "Key Features",
+    "relatedProjects": "Related Projects"
+  },
+  "footer": {
+    "tagline": "Professional welding services delivering quality craftsmanship and precision work for all your welding needs.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "copyright": "© {{year}} Welder. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading..."
+  },
+  "home": {
+    "introduction": {
+      "title": "Professional Welding Excellence",
+      "description": "With years of experience and dedication to quality, I deliver superior welding solutions for residential, commercial, and industrial projects. Every weld is crafted with precision and built to last.",
+      "cta": "Learn More About Me"
+    }
+  }
+}

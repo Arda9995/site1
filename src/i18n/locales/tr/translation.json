@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": {
+      "line1": "Güçlü Tasarımlar",
+      "line2": "Metal İle Şekilleniyor"
+    },
+    "subtitle": "Hassas, kaliteli ve dayanıklı profesyonel kaynak hizmetleri",
+    "cta": {
+      "viewWork": "İşlerimi İncele",
+      "contact": "İletişime Geçin"
+    }
+  },
+  "about": {
+    "title": "Hakkımda",
+    "subtitle": "Hassasiyet ve tutkuyla metali şaheserlere dönüştürüyorum",
+    "journeyTitle": "Yolculuğum",
+    "journey1": "Yıllar süren profesyonel kaynak deneyimiyle, kariyerimi metal işçiliğinin sanatını ve bilimini öğrenmeye adadım. Her proje, hassasiyeti, detaylara olan dikkati ve kaliteye olan sarsılmaz bağlılığı sergileme fırsatıdır.",
+    "journey2": "Yapısal çelik işlerinden özel imalata kadar, her işe aynı profesyonellik ve uzmanlıkla yaklaşıyorum. İşim, her bir kaynağın gücü ve güzelliğiyle kendini konuşturuyor.",
+    "journey3": "Beklentilerin ötesine geçen olağanüstü sonuçlar sunarak müşterilerimle kalıcı ilişkiler kurmaya inanıyorum. Projeniz sadece bir iş değil, aynı zamanda zanaatımın ve itibarımın bir yansımasıdır.",
+    "whyChooseMe": "Neden Beni Tercih Etmelisiniz?",
+    "features": [
+      {
+        "icon": "Award",
+        "title": "Sertifikalı Profesyonel",
+        "description": "Tüm kaynak tekniklerinde tam sertifikalı ve deneyimli"
+      },
+      {
+        "icon": "Shield",
+        "title": "Kalite Garantili",
+        "description": "Her proje en yüksek kalite ve güvenlik standartlarını karşılar"
+      },
+      {
+        "icon": "Clock",
+        "title": "Zamanında Teslimat",
+        "description": "Kaliteden ödün vermeden zamanında tamamlanan projeler"
+      },
+      {
+        "icon": "Users",
+        "title": "Müşteri Odaklı",
+        "description": "Müşteri beklentilerini anlamaya ve aşmaya adanmışlık"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projelerim",
+    "subtitle": "En son kaynak projelerimin ve metal işçiliği çalışmalarımın bir koleksiyonunu keşfedin.",
+    "recent": "Yakın Zamanda",
+    "viewDetails": "Detayları Görüntüle",
+    "noProjects": "Henüz proje bulunmuyor. Yakında tekrar kontrol edin!",
+    "categories": {
+      "fabrication": "İmalat",
+      "structural": "Yapısal",
+      "artistic": "Sanatsal",
+      "industrial": "Endüstriyel",
+      "residential": "Konut"
+    },
+    "precisionMetalFabrication": {
+      "title": "Hassas Metal İmalatı",
+      "description": "Temiz ve hassas kaynak işçiliği ile uzman metal imalatı.",
+      "detailedDescription": "Bu proje, temiz ve profesyonel kaynak işçiliği ile hassas metal imalatı yeteneklerimizi sergilemektedir. Parça, metal işçiliğinde detaylara verilen önemi ve kaliteli işçiliği göstermektedir."
+    },
+    "structuralSteelWork": {
+      "title": "Yapısal Çelik İşleri",
+      "description": "Endüstriyel uygulamalar için ağır hizmet tipi yapısal çelik kaynağı.",
+      "detailedDescription": "Profesyonel yapısal çelik işleri, endüstriyel uygulamalar için güçlü ve güvenilir kaynakları göstermektedir. Bu proje, ağır malzemelerle çalışma ve dayanıklı yapılar oluşturma yeteneğimizi vurgulamaktadır."
+    },
+    "customMetalArtPiece": {
+      "title": "Özel Metal Sanat Eseri",
+      "description": "Kaynak sanatını sergileyen sanatsal metal eser.",
+      "detailedDescription": "Sanatsal vizyonu uzman kaynak teknikleriyle birleştiren benzersiz bir metal sanat eseri. Bu özel yapım, yetenekli metal işçiliği ile elde edilebilecek güzelliği göstermektedir."
+    },
+    "industrialMetalFramework": {
+      "title": "Endüstriyel Metal İskelet",
+      "description": "Hassas kaynak işçiliği ile ağır hizmet tipi metal iskelet yapımı.",
+      "detailedDescription": "Bu endüstriyel iskelet projesi, güçlü ve hassas metal yapılar oluşturma yeteneğimizi sergilemektedir. Temiz kaynaklar ve sağlam yapı, profesyonel metal işçiliği becerilerini göstermektedir."
+    },
+    "decorativeMetalRailing": {
+      "title": "Dekoratif Metal Korkuluk",
+      "description": "Özel tasarım detaylarına sahip zarif metal korkuluk.",
+      "detailedDescription": "Bu dekoratif korkuluk, işlevselliği estetik çekicilikle birleştirir. Özel tasarım, temiz hatları ve hassas kaynak işçiliği ile herhangi bir alana güzel ve dayanıklı bir katkı sağlar."
+    },
+    "metalSculptureInstallation": {
+      "title": "Metal Heykel Enstalasyonu",
+      "description": "Ayrıntılı kaynak detaylarına sahip sanatsal metal heykel.",
+      "detailedDescription": "Bu metal heykel, kaynağın sanatsal potansiyelini sergilemektedir. Eser, ayrıntılı detaylar içerir ve metalin güzel, akıcı formlara nasıl dönüştürülebileceğini göstermektedir."
+    },
+    "customMetalGateDesign": {
+      "title": "Özel Metal Kapı Tasarımı",
+      "description": "Benzersiz tasarım öğelerine sahip el yapımı metal kapı.",
+      "detailedDescription": "Bu özel metal kapı, güvenliği sanatsal tasarımla birleştirir. Parça, temiz hatları ve hassas kaynak işçiliği ile güzel ve işlevsel bir giriş oluşturur."
+    },
+    "industrialMetalStructure": {
+      "title": "Endüstriyel Metal Yapı",
+      "description": "Profesyonel kaynak işçiliği ile ağır hizmet tipi metal yapı.",
+      "detailedDescription": "Bu endüstriyel yapı, büyük ölçekli metal imalattaki uzmanlığımızı göstermektedir. Proje, endüstriyel uygulamalar için hassas kaynak işçiliği ve yapısal sağlamlık özelliklerine sahiptir."
+    }
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Projenize başlamaya hazır mısınız? Size nasıl yardımcı olabileceğimi konuşalım",
+    "contactInfo": "İletişim Bilgileri",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "location": "Konum",
+    "cityState": "Şehir, Ülke",
+    "linkedin": "LinkedIn'de Bağlanın",
+    "responseTime": "Genellikle 24 saat içinde yanıt veriyorum. Acil durumlar için lütfen doğrudan arayınız."
+  },
+  "projectDetail": {
+    "notFound": "Proje Bulunamadı",
+    "backToProjects": "Projelere Dön",
+    "projectGallery": "Proje Galerisi",
+    "completionDate": "Tamamlanma Tarihi",
+    "category": "Kategori",
+    "projectDescription": "Proje Açıklaması",
+    "keyFeatures": "Temel Özellikler",
+    "relatedProjects": "Benzer Projeler"
+  },
+  "footer": {
+    "tagline": "Tüm kaynak ihtiyaçlarınız için kaliteli işçilik ve hassas çalışma sunan profesyonel kaynak hizmetleri.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "contactInfo": "İletişim Bilgileri",
+    "copyright": "© {{year}} Kaynakçı. Tüm hakları saklıdır."
+  },
+  "common": {
+    "loading": "Yükleniyor..."
+  },
+  "home": {
+    "introduction": {
+      "title": "Profesyonel Kaynak Mükemmelliği",
+      "description": "Yılların deneyimi ve kaliteye olan bağlılığımla, konut, ticari ve endüstriyel projeler için üstün kaynak çözümleri sunuyorum. Her kaynak hassasiyetle işlenir ve uzun ömürlü olacak şekilde inşa edilir.",
+      "cta": "Hakkımda Daha Fazla Bilgi"
+    }
+  }
+}

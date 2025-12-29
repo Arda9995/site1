@@ -53,8 +53,6 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>{t('about.journey1')}</p>
-              <p>{t('about.journey2')}</p>
-              <p>{t('about.journey3')}</p>
             </div>
           </div>
         </div>

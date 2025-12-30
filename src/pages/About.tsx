@@ -39,7 +39,6 @@ export default function About() {
               {t('about.title')}
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              {t('about.subtitle')}
             </p>
           </div>
         </div>
@@ -56,7 +55,6 @@ export default function About() {
             </div>
           </div>
         </div>
-
         <div>
           <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
             {t('about.whyChooseMe')}

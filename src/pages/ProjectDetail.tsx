@@ -65,8 +65,7 @@ export default function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) 
             <div className="flex items-center text-sm text-gray-300 mb-8">
               <Calendar className="w-4 h-4 mr-1.5" />
               <span>{formatDate(project.completion_date)}</span>
-              <span className="mx-2">•</span>
-              <span>{project.location}</span>
+
             </div>
           </div>
         </div>

@@ -71,13 +71,13 @@ export default function Footer({ onNavigate }: FooterProps) {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />
-                <a href="mailto:info@prowelder.com" className="text-sm hover:text-orange-400 transition-colors">
+                <a href="mailto:ospatechs@gmail.com" className="text-sm hover:text-orange-400 transition-colors">
                   info@prowelder.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />
-                <a href="tel:+1234567890" className="text-sm hover:text-orange-400 transition-colors">
+                <a href="tel:+90 505 996 35 41" className="text-sm hover:text-orange-400 transition-colors">
                   (123) 456-7890
                 </a>
               </li>
@@ -88,7 +88,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <li className="flex items-start gap-3">
                 <Linkedin className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href= "www.linkedin.com/in/ospatech-solutions-392b293a1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm hover:text-orange-400 transition-colors"

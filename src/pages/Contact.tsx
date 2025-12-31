@@ -33,7 +33,7 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-slate-900 mb-1">{t('contact.email')}</h3>
                   <a
-                    href="mailto:info@prowelder.com"
+                    href="mailto:ospatechs@gmail.com"
                     className="text-gray-600 hover:text-burgundy-600 transition-colors"
                   >
                     info@prowelder.com
@@ -48,7 +48,7 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-slate-900 mb-1">{t('contact.phone')}</h3>
                   <a
-                    href="tel:+1234567890"
+                    href="tel:+90 505 996 35 41"
                     className="text-gray-600 hover:text-burgundy-600 transition-colors"
                   >
                     (123) 456-7890
@@ -73,7 +73,7 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-slate-900 mb-1">LinkedIn</h3>
                   <a 
-                    href="https://linkedin.com/in/yourusername" 
+                    href="www.linkedin.com/in/ospatech-solutions-392b293a1"
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-burgundy-600 transition-colors"

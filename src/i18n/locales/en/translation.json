@@ -96,6 +96,16 @@
       "title": "Industrial Metal Structure",
       "description": "Heavy-duty metal structure with professional welding.",
       "detailedDescription": "This industrial structure demonstrates our expertise in large-scale metal fabrication. The project features precise welding and structural integrity for industrial applications."
+    },
+    "metalArtInstallation": {
+      "title": "Metal Art Installation",
+      "description": "Unique metal art installation.",
+      "detailedDescription": "A distinctive metal art installation that transforms the space."
+    },
+    "metalSculptureArt": {
+      "title": "Metal Sculpture Art",
+      "description": "Expressive metal sculpture art.",
+      "detailedDescription": "An expressive piece of metal sculpture art, showcasing creativity in welding."
     }
   },
   "contact": {
@@ -107,7 +117,8 @@
     "location": "Location",
     "cityState": "Your City, State",
     "linkedin": "Connect on LinkedIn",
-    "responseTime": "I typically respond within 24 hours. For urgent matters, please call directly."
+    "responseTime": "I typically respond within 24 hours. For urgent matters, please call directly.",
+    "cta": "Start Your Project"
   },
   "projectDetail": {
     "notFound": "Project Not Found",

@@ -19,7 +19,7 @@
   "about": {
     "title": "Hakkımda",
     "journeyTitle": "Yolculuğum",
-    "journey1": "Kaynak ve metal işleri sektörüne 15 yaşında çırak olarak adım attım. Başlangıçta bu mesleği yapmayı planlamıyordum; ancak her işin sonunda ortaya çıkan sağlam ve düzgün işi görmek, zamanla bu işe bağlanmamı sağladı. Yıllar boyunca şantiye ve tesislerde çalışarak hem tecrübe kazandım hem de işin mutfağında yetiştim.\n\nEdindiğim deneyimlerin ardından maaşlı çalışma hayatını bırakıp kendi ekipmanlarımı alarak kendi işimi kurdum. Bugün; MIG/MAG, TIG ve elektrod (ARC) kaynak yöntemleri ile çelik konstrüksiyon, paslanmaz imalat, kaynaklı imalat ve yerinde montaj işleri yapıyorum. Projeye göre doğru yöntemi seçiyor, işi uzun yıllar sağlamlığını koruyacak şekilde uyguluyorum.\n\nİster atölyede ister sahada olsun, her işte planlı, disiplinli ve çözüm odaklı çalışırım. Ölçü alma, kesim, kıvrım, kaynak ve montaj süreçlerinin tamamını titizlikle yürütürüm. Benim için en önemli konular; sağlam işçilik, iş güvenliği, verilen sözü tutmak ve işi zamanında teslim etmektir.\n\nİşimi severek yapıyorum. Teslim ettiğim her işte emeğimi ve güveni görmek, benim için en büyük kazançtır.\n\nİstersen bunu:",
+    "journey1": "Kaynak ve metal işleri sektörüne 15 yaşında çırak olarak adım attım. Başlangıçta bu mesleği yapmayı planlamıyordum; ancak her işin sonunda ortaya çıkan sağlam ve düzgün işi görmek, zamanla bu işe bağlanmamı sağladı. Yıllar boyunca şantiye ve tesislerde çalışarak hem tecrübe kazandım hem de işin mutfağında yetiştim.\n\nEdindiğim deneyimlerin ardından maaşlı çalışma hayatını bırakıp kendi ekipmanlarımı alarak kendi işimi kurdum. Bugün; MIG/MAG, TIG ve elektrod (ARC) kaynak yöntemleri ile çelik konstrüksiyon, paslanmaz imalat, kaynaklı imalat ve yerinde montaj işleri yapıyorum. Projeye göre doğru yöntemi seçiyor, işi uzun yıllar sağlamlığını koruyacak şekilde uyguluyorum.\n\nİster atölyede ister sahada olsun, her işte planlı, disiplinli ve çözüm odaklı çalışırım. Ölçü alma, kesim, kıvrım, kaynak ve montaj süreçlerinin tamamını titizlikle yürütürüm. Benim için en önemli konular; sağlam işçilik, iş güvenliği, verilen sözü tutmak ve işi zamanında teslim etmektir.\n\nİşimi severek yapıyorum. Teslim ettiğim her işte emeğimi ve güveni görmek, benim için en büyük kazançtır.",
     "whyChooseMe": "Neden Beni Tercih Etmelisiniz?",
     "features": [
       {
@@ -58,14 +58,14 @@
       "residential": "Konut"
     },
     "precisionMetalFabrication": {
-      "title": "Hassas Metal İmalatı",
-      "description": "Temiz ve hassas kaynak işçiliği ile uzman metal imalatı.",
-      "detailedDescription": "Bu proje, temiz ve profesyonel kaynak işçiliği ile hassas metal imalatı yeteneklerimizi sergilemektedir. Parça, metal işçiliğinde detaylara verilen önemi ve kaliteli işçiliği göstermektedir."
+      "title": "Sızdırmaz Kaynak",
+      "description": "Sızdırmaz kaynak işi, malzmeme 304 kalite paslanmaz çelik",
+      "detailedDescription": "304 kalite paslanmaz çelik malzemelerde sızdırmaz kaynak uyguluyoruz. Kaynağı, basınçlı hatlar ve akışkan taşıyan sistemlerde güvenle kullanılabilecek şekilde, boşluk bırakmadan ve tam nüfuziyet ile yapıyoruz. Böylece kaynak hattında kaçak oluşmaz, uzun yıllar güvenle kullanılabilir."
     },
     "structuralSteelWork": {
-      "title": "Yapısal Çelik İşleri",
-      "description": "Endüstriyel uygulamalar için ağır hizmet tipi yapısal çelik kaynağı.",
-      "detailedDescription": "Profesyonel yapısal çelik işleri, endüstriyel uygulamalar için güçlü ve güvenilir kaynakları göstermektedir. Bu proje, ağır malzemelerle çalışma ve dayanıklı yapılar oluşturma yeteneğimizi vurgulamaktadır."
+      "title": "Özel makine parçası",
+      "description": "Müşteri isteği üzerine yapılan makine parçası",
+      "detailedDescription": "Bu çalışmada, müşterimizin isteği doğrultusunda ölçülere özel olarak kesilip kıvrılan sac metal parçaların birleştirilmesine yönelik hassas kaynak uygulaması gerçekleştirilmiştir. Parça kenarları düzgün şekilde hazırlanarak kontrollü ısı ile kaynak yapılmış, düzgün ve estetik bir kaynak dikişi elde edilmiştir. Uygulama sürecinde hem mukavemet hem de yüzey kalitesi gözetilerek, endüstriyel kullanıma uygun, dayanıklı ve uzun ömürlü bir metal birleşim sağlanmıştır."
     },
     "customMetalArtPiece": {
       "title": "Özel Metal Sanat Eseri",
@@ -78,24 +78,34 @@
       "detailedDescription": "Bu endüstriyel iskelet projesi, güçlü ve hassas metal yapılar oluşturma yeteneğimizi sergilemektedir. Temiz kaynaklar ve sağlam yapı, profesyonel metal işçiliği becerilerini göstermektedir."
     },
     "decorativeMetalRailing": {
-      "title": "Dekoratif Metal Korkuluk",
-      "description": "Özel tasarım detaylarına sahip zarif metal korkuluk.",
-      "detailedDescription": "Bu dekoratif korkuluk, işlevselliği estetik çekicilikle birleştirir. Özel tasarım, temiz hatları ve hassas kaynak işçiliği ile herhangi bir alana güzel ve dayanıklı bir katkı sağlar."
+      "title": "Endüstriyel davlumbaz imalatı",
+      "description": "Endüstriyel mutfak ve üretim alanlarında kullanılan davlumbazların imalatı",
+      "detailedDescription": "Bu projede, endüstriyel mutfak ve üretim alanlarında kullanılan davlumbazların imalatı gerçekleştirilmiştir. Sac malzeme, projeye uygun ölçülerde kesilip bükülerek birleştirilmiş; hava akışını verimli şekilde yönlendiren, dayanıklı ve uzun ömürlü bir yapı elde edilmiştir. İmalat sürecinde düzgün yüzey kalitesi ve sağlam bağlantılar sağlanarak, endüstriyel standartlara uygun, işlevsel bir davlumbaz sistemi ortaya çıkarılmıştır"
     },
     "metalSculptureInstallation": {
-      "title": "Metal Heykel Enstalasyonu",
-      "description": "Ayrıntılı kaynak detaylarına sahip sanatsal metal heykel.",
-      "detailedDescription": "Bu metal heykel, kaynağın sanatsal potansiyelini sergilemektedir. Eser, ayrıntılı detaylar içerir ve metalin güzel, akıcı formlara nasıl dönüştürülebileceğini göstermektedir."
+      "title": "Makine parçaları imalatı",
+      "description": "Endüstriyel makine parçaları imalatı.",
+      "detailedDescription": "Bu çalışmada, endüstriyel kullanım için tasarlanan makine parçalarının imalatı gerçekleştirilmiş olup parçaların birleştirilmesinde yüksek amper fincan sallama kaynak tekniği uygulanmıştır. Bu yöntem sayesinde kaynak dikişleri homojen ve düzgün bir yapı kazanmış, yüksek mukavemet sağlanırken ısıya bağlı deformasyon minimum seviyede tutulmuştur. Üretim süreci boyunca ölçüsel doğruluk ve yüzey kalitesi kontrol edilerek parçalar endüstriyel standartlara uygun, uzun ömürlü ve güvenilir bir şekilde tamamlanmıştır."
     },
     "customMetalGateDesign": {
-      "title": "Özel Metal Kapı Tasarımı",
-      "description": "Benzersiz tasarım öğelerine sahip el yapımı metal kapı.",
-      "detailedDescription": "Bu özel metal kapı, güvenliği sanatsal tasarımla birleştirir. Parça, temiz hatları ve hassas kaynak işçiliği ile güzel ve işlevsel bir giriş oluşturur."
+      "title": "Boru kaynağı",
+      "description": "Endüstriyel tesisat borusu kaynağı",
+      "detailedDescription": "Bu çalışmada, endüstriyel tesisat ve makine sistemlerinde kullanılan boruların kaynak işlemi gerçekleştirilmiştir. Boru birleşimleri, yüksek dayanım ve sızdırmazlık gereksinimleri göz önünde bulundurularak kontrollü ısı dağılımı sağlayan kaynak tekniği ile yapılmış, düzgün ve homojen bir kaynak dikişi elde edilmiştir. Kaynak süreci sonunda mekanik dayanım ve yüzey kalitesi kontrol edilerek, uzun ömürlü ve güvenilir bir boru bağlantısı sağlanmıştır."
     },
     "industrialMetalStructure": {
       "title": "Endüstriyel Metal Yapı",
       "description": "Profesyonel kaynak işçiliği ile ağır hizmet tipi metal yapı.",
       "detailedDescription": "Bu endüstriyel yapı, büyük ölçekli metal imalattaki uzmanlığımızı göstermektedir. Proje, endüstriyel uygulamalar için hassas kaynak işçiliği ve yapısal sağlamlık özelliklerine sahiptir."
+    },
+    "metalArtInstallation": {
+      "title": "Metal Sanat Enstalasyonu",
+      "description": "Benzersiz metal sanat enstalasyonu.",
+      "detailedDescription": "Mekanı dönüştüren benzersiz bir metal sanat enstalasyonu."
+    },
+    "metalSculptureArt": {
+      "title": "Metal Heykel Sanatı",
+      "description": "Etkileyici metal heykel sanatı.",
+      "detailedDescription": "Kaynak konusundaki yaratıcılığı sergileyen etkileyici bir metal heykel sanat eseri."
     }
   },
   "contact": {
@@ -107,7 +117,8 @@
     "location": "Konum",
     "cityState": "Şehir, Ülke",
     "linkedin": "LinkedIn'de Bağlanın",
-    "responseTime": "Genellikle 24 saat içinde yanıt veriyorum. Acil durumlar için lütfen doğrudan arayınız."
+    "responseTime": "Genellikle 24 saat içinde yanıt veriyorum. Acil durumlar için lütfen doğrudan arayınız.",
+    "cta": "Projenizi Başlatın"
   },
   "projectDetail": {
     "notFound": "Proje Bulunamadı",

@@ -134,7 +134,7 @@ export default function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) 
               onClick={() => onNavigate('contact')}
               className="px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-orange-500/30"
             >
-              Start Your Project
+              {t('contact.cta')}
             </button>
           </div>
         </div>

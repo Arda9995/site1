@@ -67,7 +67,7 @@ function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) {
           <div className="max-w-7xl mx-auto">
             <div className="text-white">
               <div className="text-sm uppercase tracking-wider mb-3 text-white/80">
-                {t(project.category)} • {project.year || '2024'}
+                {t(project.category)}
               </div>
               <h1 className="text-5xl md:text-6xl font-light mb-4">{t(project.title)}</h1>
               <div className="flex items-center space-x-2 text-white/90">

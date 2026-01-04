@@ -4,6 +4,15 @@ export type Project = {
   slug: string;
   description: string;
   detailed_description: string;
+  location?: string;
+  year?: string;
+  features?: string[];
+  details?: {
+    client: string;
+    area: string;
+    duration: string;
+    architect: string;
+  };
   featured_image: string;
   images: string[];
   category: string;

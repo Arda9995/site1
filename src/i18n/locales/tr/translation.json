@@ -2,6 +2,7 @@
   "nav": {
     "home": "Ana Sayfa",
     "about": "Hakkımda",
+    "services": "Hizmetler",
     "projects": "Projeler",
     "contact": "İletişim"
   },
@@ -144,6 +145,32 @@
       "title": "Profesyonel Kaynak Mükemmelliği",
       "description": "Yılların deneyimi ve kaliteye olan bağlılığımla, konut, ticari ve endüstriyel projeler için üstün kaynak çözümleri sunuyorum. Her kaynak hassasiyetle işlenir ve uzun ömürlü olacak şekilde inşa edilir.",
       "cta": "Hakkımda Daha Fazla Bilgi"
+    }
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "İhtiyaçlarınıza özel kapsamlı kaynak ve imalat çözümleri",
+    "servicesList": [
+      {
+        "icon": "Wrench",
+        "title": "Kaynak Hizmetleri",
+        "description": "Deneyimli ekibimizle MIG/MAG, TIG ve ARC (elektrod kaynak) yöntemlerini kullanarak profesyonel kaynak hizmeti sunuyoruz. Proje gereksinimlerine göre en uygun kaynak tekniğini özenle seçiyor, uzun ömürlü dayanıklılık ve sağlamlık sağlıyoruz. İş güvenliği ve temiz işçilik her işte önceliğimizdir. Sadece kaynak yapmıyoruz — güçlü ve güvenilir çözümler sunuyoruz."
+      },
+      {
+        "icon": "Package",
+        "title": "Kaynaklı İmalat",
+        "description": "Proje ihtiyaçlarına göre ölçüleri, malzemeleri ve teknik detayları dikkatle değerlendirerek kaynaklı imalat sürecinin tamamını baştan sona yönetiyoruz. İmalat atölyemizde veya sahada gerçekleştirilsin, disiplinli, planlı ve çözüm odaklı çalışıyoruz. Dayanıklılık, hassasiyet ve zamanında teslimat bizim için vazgeçilmez standartlardır."
+      },
+      {
+        "icon": "Scissors",
+        "title": "Özel Kesim ve Kıvrım İmalatı",
+        "description": "Özel kesim ve kıvrım gerektiren projeler için hassas çözümler üretiyoruz. Ölçümden planlamaya, son uygulamaya kadar her aşama titizlikle ele alınır. Özel imalatta önceliklerimiz her zaman sağlamlık, doğruluk ve temiz işçiliktir."
+      }
+    ],
+    "cta": {
+      "title": "Projenize Başlamaya Hazır mısınız?",
+      "description": "Kaynak ve imalat ihtiyaçlarınızı görüşmek için bugün bizimle iletişime geçin. Vizyonunuzu kalite ve hassasiyetle hayata geçirmek için buradayız.",
+      "button": "İletişime Geçin"
     }
   }
 }

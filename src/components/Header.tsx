@@ -24,6 +24,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
   const navItems = [
     { id: 'home', label: t('nav.home') },
     { id: 'about', label: t('nav.about') },
+    { id: 'services', label: t('nav.services') },
     { id: 'projects', label: t('nav.projects') },
     { id: 'contact', label: t('nav.contact') },
   ];
@@ -41,11 +42,10 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
           ? 'bg-slate-900/95 backdrop-blur-sm shadow-lg'
           : 'bg-transparent'
-      }`}
+        }`}
     >
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
@@ -62,17 +62,15 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
               <button
                 key={item.id}
                 onClick={() => handleNavClick(item.id)}
-                className={`text-sm font-medium transition-colors relative group ${
-                  currentPage === item.id
+                className={`text-sm font-medium transition-colors relative group ${currentPage === item.id
                     ? 'text-orange-400'
                     : 'text-white hover:text-orange-400'
-                }`}
+                  }`}
               >
                 {item.label}
                 <span
-                  className={`absolute bottom-0 left-0 w-full h-0.5 bg-orange-400 transform origin-left transition-transform ${
-                    currentPage === item.id ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
-                  }`}
+                  className={`absolute bottom-0 left-0 w-full h-0.5 bg-orange-400 transform origin-left transition-transform ${currentPage === item.id ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
+                    }`}
                 />
               </button>
             ))}
@@ -115,11 +113,10 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
               <button
                 key={item.id}
                 onClick={() => handleNavClick(item.id)}
-                className={`block w-full text-left px-4 py-3 text-sm font-medium transition-colors ${
-                  currentPage === item.id
+                className={`block w-full text-left px-4 py-3 text-sm font-medium transition-colors ${currentPage === item.id
                     ? 'text-orange-400 bg-slate-800/50'
                     : 'text-white hover:text-orange-400 hover:bg-slate-800/30'
-                }`}
+                  }`}
               >
                 {item.label}
               </button>

@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Hero from './pages/Hero';
 import About from './pages/About';
+import Services from './pages/Services';
 import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
 import Contact from './pages/Contact';
@@ -72,6 +73,8 @@ function App() {
         )}
 
         {currentPage === 'about' && <About />}
+
+        {currentPage === 'services' && <Services onNavigate={handleNavigate} />}
 
         {currentPage === 'projects' && <Projects onNavigate={handleNavigate} />}
 

@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About",
+    "services": "Services",
     "projects": "Projects",
     "contact": "Contact"
   },
@@ -144,6 +145,32 @@
       "title": "Professional Welding Excellence",
       "description": "With years of experience and dedication to quality, I deliver superior welding solutions for residential, commercial, and industrial projects. Every weld is crafted with precision and built to last.",
       "cta": "Learn More About Me"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive welding and fabrication solutions tailored to your needs",
+    "servicesList": [
+      {
+        "icon": "Wrench",
+        "title": "Welding Services",
+        "description": "With our experienced team, we provide professional welding services using MIG/MAG, TIG, and ARC (stick welding) methods. We carefully select the most suitable welding technique according to project requirements and ensure long-lasting strength and durability. Occupational safety and clean workmanship are our top priorities in every job. We don't just weld — we deliver strong and reliable solutions."
+      },
+      {
+        "icon": "Package",
+        "title": "Welded Fabrication",
+        "description": "We manage the entire welded fabrication process from start to finish by carefully evaluating dimensions, materials, and technical details based on project needs. Whether fabrication is carried out in our workshop or on-site, we work in a disciplined, planned, and solution-oriented manner. Durability, precision, and on-time delivery are non-negotiable standards for us."
+      },
+      {
+        "icon": "Scissors",
+        "title": "Custom Cut & Bent Fabrication",
+        "description": "For projects requiring custom cutting and bending, we produce tailored solutions with precision. From measurement and planning to final application, every stage is handled meticulously. In custom manufacturing, our priorities are always strength, accuracy, and clean workmanship."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Contact us today to discuss your welding and fabrication needs. We're here to bring your vision to life with quality and precision.",
+      "button": "Get in Touch"
     }
   }
 }

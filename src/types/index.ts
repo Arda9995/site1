@@ -23,4 +23,4 @@ export type Project = {
   updated_at: string;
 };
 
-export type Page = 'home' | 'about' | 'projects' | 'contact' | 'project-detail';
+export type Page = 'home' | 'about' | 'services' | 'projects' | 'contact' | 'project-detail';

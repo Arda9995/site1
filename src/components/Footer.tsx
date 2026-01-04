@@ -49,6 +49,14 @@ export default function Footer({ onNavigate }: FooterProps) {
               </li>
               <li>
                 <button
+                  onClick={() => handleNavClick('services')}
+                  className="text-sm hover:text-orange-400 transition-colors"
+                >
+                  {t('nav.services')}
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => handleNavClick('projects')}
                   className="text-sm hover:text-orange-400 transition-colors"
                 >

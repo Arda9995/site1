@@ -8,10 +8,7 @@ export type Project = {
   year?: string;
   features?: string[];
   details?: {
-    client: string;
     area: string;
-    duration: string;
-    architect: string;
   };
   featured_image: string;
   images: string[];

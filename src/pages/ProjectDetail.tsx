@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ArrowLeft, MapPin, Calendar, Users, Ruler, Check } from 'lucide-react';
+import { ArrowLeft, MapPin, Ruler, Check } from 'lucide-react';
 import { projectsData } from '../data/projects';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
@@ -40,10 +40,7 @@ function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) {
 
   // Helper to safely get details
   const details = project.details || {
-    client: 'N/A',
-    area: 'N/A',
-    duration: 'N/A',
-    architect: 'N/A'
+    area: 'N/A'
   };
 
   const features = project.features || [];
@@ -118,31 +115,10 @@ function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) {
               <div className="space-y-6">
                 <div>
                   <div className="flex items-center space-x-2 text-slate-500 mb-2">
-                    <Users size={18} />
-                    <span className="text-sm uppercase tracking-wide">Client</span>
-                  </div>
-                  <p className="text-slate-900">{details.client}</p>
-                </div>
-                <div>
-                  <div className="flex items-center space-x-2 text-slate-500 mb-2">
                     <Ruler size={18} />
                     <span className="text-sm uppercase tracking-wide">Area</span>
                   </div>
                   <p className="text-slate-900">{details.area}</p>
-                </div>
-                <div>
-                  <div className="flex items-center space-x-2 text-slate-500 mb-2">
-                    <Calendar size={18} />
-                    <span className="text-sm uppercase tracking-wide">Duration</span>
-                  </div>
-                  <p className="text-slate-900">{details.duration}</p>
-                </div>
-                <div>
-                  <div className="flex items-center space-x-2 text-slate-500 mb-2">
-                    <Users size={18} />
-                    <span className="text-sm uppercase tracking-wide">Project Architect</span>
-                  </div>
-                  <p className="text-slate-900">{details.architect}</p>
                 </div>
               </div>
             </div>

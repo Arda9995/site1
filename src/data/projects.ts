@@ -15,10 +15,7 @@ export const projectsData: Project[] = [
     location: 'Istanbul, Turkey',
     features: ['Custom Design', 'High Precision', 'Durability'],
     details: {
-      client: 'Industrial Corp',
-      area: '500m2',
-      duration: '3 Months',
-      architect: 'John Doe'
+      area: '500m2'
     },
     is_featured: true,
     order_index: 1,
@@ -39,10 +36,7 @@ export const projectsData: Project[] = [
     location: 'Ankara, Turkey',
     features: ['Seismic Resistance', 'Large Span', 'Fast Assembly'],
     details: {
-      client: 'BuildTech',
-      area: '1200m2',
-      duration: '6 Months',
-      architect: 'Jane Smith'
+      area: '1200m2'
     },
     is_featured: true,
     order_index: 2,
@@ -63,10 +57,7 @@ export const projectsData: Project[] = [
     location: 'Izmir, Turkey',
     features: ['Unique Design', 'Handcrafted', 'Weather Resistant'],
     details: {
-      client: 'Private Collector',
-      area: 'N/A',
-      duration: '2 Months',
-      architect: 'Art Studio X'
+      area: 'N/A'
     },
     is_featured: true,
     order_index: 3,
@@ -87,10 +78,7 @@ export const projectsData: Project[] = [
     location: 'Bursa, Turkey',
     features: ['Heavy Load', 'Modular', 'Scalable'],
     details: {
-      client: 'Factory Inc',
-      area: '2000m2',
-      duration: '5 Months',
-      architect: 'Tech Struct'
+      area: '2000m2'
     },
     is_featured: true,
     order_index: 4,
@@ -111,10 +99,7 @@ export const projectsData: Project[] = [
     location: 'Antalya, Turkey',
     features: ['Elegant', 'Safety Compliant', 'Rust Proof'],
     details: {
-      client: 'Hotel Grand',
-      area: '300m',
-      duration: '1 Month',
-      architect: 'Design Co'
+      area: '300m'
     },
     is_featured: true,
     order_index: 5,
@@ -135,10 +120,7 @@ export const projectsData: Project[] = [
     location: 'Bodrum, Turkey',
     features: ['Modern', 'Large Scale', 'Interactive'],
     details: {
-      client: 'City Council',
-      area: 'Open Space',
-      duration: '4 Months',
-      architect: 'Urban Arts'
+      area: 'Open Space'
     },
     is_featured: true,
     order_index: 6,

@@ -10,7 +10,6 @@ export const projectsData: Project[] = [
     featured_image: '/kaynak1.webp',
     images: ['/kaynak1.webp', '/kaynak2.webp', '/kaynak3.webp'],
     category: 'projects.categories.fabrication',
-    completion_date: '2024-11-23',
     year: '2024',
     features: ['Custom Design', 'High Precision', 'Durability'],
     details: {
@@ -30,7 +29,6 @@ export const projectsData: Project[] = [
     featured_image: '/kaynak2.webp',
     images: ['/kaynak2.webp', '/kaynak4.webp'],
     category: 'projects.categories.structural',
-    completion_date: '2024-11-23',
     year: '2024',
     features: ['Seismic Resistance', 'Large Span', 'Fast Assembly'],
     details: {
@@ -50,7 +48,6 @@ export const projectsData: Project[] = [
     featured_image: '/kaynak3.webp',
     images: ['/kaynak3.webp', '/kaynak5.webp'],
     category: 'projects.categories.artistic',
-    completion_date: '2024-11-23',
     year: '2023',
     features: ['Unique Design', 'Handcrafted', 'Weather Resistant'],
     details: {
@@ -68,11 +65,10 @@ export const projectsData: Project[] = [
     description: 'projects.industrialMetalFramework.description',
     detailed_description: 'projects.industrialMetalFramework.detailedDescription',
     featured_image: '/kaynak4.webp',
-    images: ['/kaynak4.webp', '/kaynak1.webp'],
+    images: ['/kaynak4.webp', '/kaynak5.webp', '/kaynak1.webp', '/kaynak6.webp'],
     category: 'projects.categories.industrial',
-    completion_date: '2024-11-23',
     year: '2024',
-    features: ['Heavy Load', 'Modular', 'Scalable'],
+    features: ['Heavy Load', 'Modular', 'Scalable', 'Elegant', 'Safety Compliant', 'Rust Proof'],
     details: {
       area: '2000m2'
     },
@@ -83,26 +79,6 @@ export const projectsData: Project[] = [
   },
   {
     id: '10',
-    title: 'projects.decorativeMetalRailing.title',
-    slug: 'decorative-metal-railing',
-    description: 'projects.decorativeMetalRailing.description',
-    detailed_description: 'projects.decorativeMetalRailing.detailedDescription',
-    featured_image: '/kaynak5.webp',
-    images: ['/kaynak5.webp', '/kaynak6.webp'],
-    category: 'projects.categories.residential',
-    completion_date: '2024-11-23',
-    year: '2024',
-    features: ['Elegant', 'Safety Compliant', 'Rust Proof'],
-    details: {
-      area: '300m'
-    },
-    is_featured: true,
-    order_index: 5,
-    created_at: '2024-11-23',
-    updated_at: '2024-11-23',
-  },
-  {
-    id: '11',
     title: 'projects.metalSculptureInstallation.title',
     slug: 'metal-sculpture-installation',
     description: 'projects.metalSculptureInstallation.description',
@@ -110,14 +86,13 @@ export const projectsData: Project[] = [
     featured_image: '/kaynak6.webp',
     images: ['/kaynak6.webp', '/kaynak2.webp'],
     category: 'projects.categories.artistic',
-    completion_date: '2024-11-23',
     year: '2024',
     features: ['Modern', 'Large Scale', 'Interactive'],
     details: {
       area: 'Open Space'
     },
     is_featured: true,
-    order_index: 6,
+    order_index: 5,
     created_at: '2024-11-23',
     updated_at: '2024-11-23',
   }

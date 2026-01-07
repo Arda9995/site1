@@ -1,6 +1,6 @@
 import { projectsData } from '../data/projects';
 import type { Project } from '../types';
-import { Calendar, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 type ProjectsProps = {
@@ -8,15 +8,7 @@ type ProjectsProps = {
 };
 
 export default function Projects({ onNavigate }: ProjectsProps) {
-  const { t, i18n } = useTranslation();
-  
-  const formatDate = (dateString: string | null) => {
-    if (!dateString) return t('projects.recent', 'Recent');
-    return new Date(dateString).toLocaleDateString(i18n.language === 'tr' ? 'tr-TR' : 'en-US', {
-      year: 'numeric',
-      month: 'long',
-    });
-  };
+  const { t } = useTranslation();
 
   return (
     <div className="min-h-screen bg-slate-50">
@@ -43,7 +35,6 @@ export default function Projects({ onNavigate }: ProjectsProps) {
                 key={project.id}
                 project={project}
                 onNavigate={onNavigate}
-                formatDate={formatDate}
               />
             ))}
           </div>
@@ -56,15 +47,11 @@ export default function Projects({ onNavigate }: ProjectsProps) {
 type ProjectCardProps = {
   project: Project;
   onNavigate: (page: string, slug?: string) => void;
-  formatDate: (date: string | null) => string;
 };
 
-function ProjectCard({ project, onNavigate, formatDate }: ProjectCardProps) {
+function ProjectCard({ project, onNavigate }: ProjectCardProps) {
   const { t } = useTranslation();
-  
-  // Get the project key from the title (assuming title is the translation key)
-  const projectKey = project.title.replace('projects.', '').split('.')[0];
-  
+
   return (
     <div
       className="bg-white rounded-xl shadow-lg overflow-hidden group cursor-pointer transition-all hover:shadow-xl hover:-translate-y-1"
@@ -81,10 +68,6 @@ function ProjectCard({ project, onNavigate, formatDate }: ProjectCardProps) {
           className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent transition-opacity duration-300"
         >
           <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-            <div className="flex items-center text-sm text-white/80 mb-2">
-              <Calendar className="w-4 h-4 mr-1.5" />
-              <span>{formatDate(project.completion_date)}</span>
-            </div>
             <h3 className="text-xl font-bold text-white mb-2">
               {t(project.title, { defaultValue: project.title })}
             </h3>

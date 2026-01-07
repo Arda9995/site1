@@ -12,7 +12,6 @@ export type Project = {
   featured_image: string;
   images: string[];
   category: string;
-  completion_date: string | null;
   is_featured: boolean;
   order_index: number;
   created_at: string;

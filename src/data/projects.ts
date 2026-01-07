@@ -12,9 +12,6 @@ export const projectsData: Project[] = [
     category: 'projects.categories.fabrication',
     year: '2024',
     features: ['Custom Design', 'High Precision', 'Durability'],
-    details: {
-      area: '500m2'
-    },
     is_featured: true,
     order_index: 1,
     created_at: '2024-11-23',
@@ -31,9 +28,6 @@ export const projectsData: Project[] = [
     category: 'projects.categories.structural',
     year: '2024',
     features: ['Seismic Resistance', 'Large Span', 'Fast Assembly'],
-    details: {
-      area: '1200m2'
-    },
     is_featured: true,
     order_index: 2,
     created_at: '2024-11-23',
@@ -50,9 +44,6 @@ export const projectsData: Project[] = [
     category: 'projects.categories.industrial',
     year: '2023',
     features: ['Unique Design', 'Handcrafted', 'Weather Resistant'],
-    details: {
-      area: 'N/A'
-    },
     is_featured: true,
     order_index: 3,
     created_at: '2024-11-23',
@@ -69,9 +60,6 @@ export const projectsData: Project[] = [
     category: 'projects.categories.industrial',
     year: '2024',
     features: ['Heavy Load', 'Modular', 'Scalable', 'Elegant', 'Safety Compliant', 'Rust Proof'],
-    details: {
-      area: '2000m2'
-    },
     is_featured: true,
     order_index: 4,
     created_at: '2024-11-23',
@@ -88,9 +76,6 @@ export const projectsData: Project[] = [
     category: 'projects.categories.artistic',
     year: '2024',
     features: ['Modern', 'Large Scale', 'Interactive'],
-    details: {
-      area: 'Open Space'
-    },
     is_featured: true,
     order_index: 5,
     created_at: '2024-11-23',

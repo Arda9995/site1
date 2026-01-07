@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ArrowLeft, Ruler, Check } from 'lucide-react';
+import { ArrowLeft, Check } from 'lucide-react';
 import { projectsData } from '../data/projects';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
@@ -38,10 +38,7 @@ function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) {
     );
   }
 
-  // Helper to safely get details
-  const details = project.details || {
-    area: 'N/A'
-  };
+
 
   const features = project.features || [];
 
@@ -106,19 +103,6 @@ function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) {
             className={`space-y-8 transition-all duration-1000 delay-200 ${detailsVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
               }`}
           >
-            <div className="bg-slate-50 p-8 rounded-lg">
-              <h3 className="text-xl font-medium text-slate-900 mb-6">Project Details</h3>
-              <div className="space-y-6">
-                <div>
-                  <div className="flex items-center space-x-2 text-slate-500 mb-2">
-                    <Ruler size={18} />
-                    <span className="text-sm uppercase tracking-wide">Area</span>
-                  </div>
-                  <p className="text-slate-900">{details.area}</p>
-                </div>
-              </div>
-            </div>
-
             <div className="bg-slate-900 text-white p-8 rounded-lg">
               <h3 className="text-xl font-medium mb-4">Interested in a Similar Project?</h3>
               <p className="text-white/80 mb-6 leading-relaxed">

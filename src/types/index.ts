@@ -6,9 +6,6 @@ export type Project = {
   detailed_description: string;
   year?: string;
   features?: string[];
-  details?: {
-    area: string;
-  };
   featured_image: string;
   images: string[];
   category: string;

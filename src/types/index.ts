@@ -4,7 +4,6 @@ export type Project = {
   slug: string;
   description: string;
   detailed_description: string;
-  location?: string;
   year?: string;
   features?: string[];
   details?: {

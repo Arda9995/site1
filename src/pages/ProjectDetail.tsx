@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ArrowLeft, MapPin, Ruler, Check } from 'lucide-react';
+import { ArrowLeft, Ruler, Check } from 'lucide-react';
 import { projectsData } from '../data/projects';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
@@ -67,10 +67,6 @@ function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) {
                 {t(project.category)}
               </div>
               <h1 className="text-5xl md:text-6xl font-light mb-4">{t(project.title)}</h1>
-              <div className="flex items-center space-x-2 text-white/90">
-                <MapPin size={18} />
-                <span>{project.location || 'Turkey'}</span>
-              </div>
             </div>
           </div>
         </div>

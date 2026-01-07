@@ -73,7 +73,7 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-slate-900 mb-1">LinkedIn</h3>
                   <a
-                    href="www.linkedin.com/in/ospatech-solutions-392b293a1"
+                    href="https://www.linkedin.com/in/ospatech-solutions-392b293a1"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-burgundy-600 transition-colors"

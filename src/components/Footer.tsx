@@ -96,10 +96,10 @@ export default function Footer({ onNavigate }: FooterProps) {
               <li className="flex items-start gap-3">
                 <Linkedin className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />
                 <a
-                  href="www.linkedin.com/in/ospatech-solutions-392b293a1"
+                  href="https://www.linkedin.com/in/ospatech-solutions-392b293a1"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm hover:text-orange-400 transition-colors"
+                  className="text-gray-600 hover:text-burgundy-600 transition-colors"
                 >
                   {t('contact.linkedin')}
                 </a>

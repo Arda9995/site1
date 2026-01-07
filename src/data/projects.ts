@@ -12,7 +12,6 @@ export const projectsData: Project[] = [
     category: 'projects.categories.fabrication',
     completion_date: '2024-11-23',
     year: '2024',
-    location: 'Istanbul, Turkey',
     features: ['Custom Design', 'High Precision', 'Durability'],
     details: {
       area: '500m2'
@@ -33,7 +32,6 @@ export const projectsData: Project[] = [
     category: 'projects.categories.structural',
     completion_date: '2024-11-23',
     year: '2024',
-    location: 'Ankara, Turkey',
     features: ['Seismic Resistance', 'Large Span', 'Fast Assembly'],
     details: {
       area: '1200m2'
@@ -54,7 +52,6 @@ export const projectsData: Project[] = [
     category: 'projects.categories.artistic',
     completion_date: '2024-11-23',
     year: '2023',
-    location: 'Izmir, Turkey',
     features: ['Unique Design', 'Handcrafted', 'Weather Resistant'],
     details: {
       area: 'N/A'
@@ -75,7 +72,6 @@ export const projectsData: Project[] = [
     category: 'projects.categories.industrial',
     completion_date: '2024-11-23',
     year: '2024',
-    location: 'Bursa, Turkey',
     features: ['Heavy Load', 'Modular', 'Scalable'],
     details: {
       area: '2000m2'
@@ -96,7 +92,6 @@ export const projectsData: Project[] = [
     category: 'projects.categories.residential',
     completion_date: '2024-11-23',
     year: '2024',
-    location: 'Antalya, Turkey',
     features: ['Elegant', 'Safety Compliant', 'Rust Proof'],
     details: {
       area: '300m'
@@ -117,7 +112,6 @@ export const projectsData: Project[] = [
     category: 'projects.categories.artistic',
     completion_date: '2024-11-23',
     year: '2024',
-    location: 'Bodrum, Turkey',
     features: ['Modern', 'Large Scale', 'Interactive'],
     details: {
       area: 'Open Space'

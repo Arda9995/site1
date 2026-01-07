@@ -42,12 +42,12 @@ export const projectsData: Project[] = [
   {
     id: '8',
     title: 'projects.customMetalArtPiece.title',
-    slug: 'custom-metal-art-piece',
+    slug: 'pipe-welding',
     description: 'projects.customMetalArtPiece.description',
     detailed_description: 'projects.customMetalArtPiece.detailedDescription',
     featured_image: '/kaynak3.webp',
     images: ['/kaynak3.webp', '/kaynak5.webp'],
-    category: 'projects.categories.artistic',
+    category: 'projects.categories.industrial',
     year: '2023',
     features: ['Unique Design', 'Handcrafted', 'Weather Resistant'],
     details: {

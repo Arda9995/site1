@@ -49,7 +49,7 @@ function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) {
         className="fixed top-24 left-6 z-40 flex items-center space-x-2 text-slate-600 hover:text-slate-900 transition-colors bg-white/80 backdrop-blur-sm p-2 rounded-full shadow-sm"
       >
         <ArrowLeft size={20} />
-        <span className="text-sm uppercase tracking-wide hidden sm:inline">Back</span>
+        <span className="text-sm uppercase tracking-wide hidden sm:inline">{t('projectDetail.back')}</span>
       </button>
 
       <div
@@ -76,12 +76,12 @@ function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) {
             className={`lg:col-span-2 transition-all duration-1000 ${overviewVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
               }`}
           >
-            <h2 className="text-3xl font-light text-slate-900 mb-6">Project Overview</h2>
+            <h2 className="text-3xl font-light text-slate-900 mb-6">{t('projectDetail.overview')}</h2>
             <p className="text-slate-600 leading-relaxed text-lg mb-12 whitespace-pre-line">
               {t(project.detailed_description)}
             </p>
 
-            <h3 className="text-2xl font-light text-slate-900 mb-6">Key Features</h3>
+            <h3 className="text-2xl font-light text-slate-900 mb-6">{t('projectDetail.keyFeatures')}</h3>
             <div className="grid md:grid-cols-2 gap-4">
               {features.length > 0 ? (
                 features.map((feature, index) => (
@@ -89,11 +89,11 @@ function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) {
                     <div className="flex-shrink-0 w-5 h-5 bg-slate-900 flex items-center justify-center mt-1">
                       <Check size={14} className="text-white" />
                     </div>
-                    <span className="text-slate-600">{feature}</span>
+                    <span className="text-slate-600">{t(feature)}</span>
                   </div>
                 ))
               ) : (
-                <p className="text-slate-500 italic">No specific features listed.</p>
+                <p className="text-slate-500 italic">{t('projectDetail.noFeatures')}</p>
               )}
             </div>
           </div>
@@ -104,15 +104,15 @@ function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) {
               }`}
           >
             <div className="bg-slate-900 text-white p-8 rounded-lg">
-              <h3 className="text-xl font-medium mb-4">Interested in a Similar Project?</h3>
+              <h3 className="text-xl font-medium mb-4">{t('projectDetail.ctaSimilar')}</h3>
               <p className="text-white/80 mb-6 leading-relaxed">
-                Contact us to discuss how we can bring your vision to life.
+                {t('projectDetail.ctaDesc')}
               </p>
               <button
                 onClick={() => onNavigate('contact')}
                 className="w-full bg-white text-slate-900 px-6 py-3 hover:bg-white/90 transition-colors uppercase text-sm tracking-wide font-medium rounded"
               >
-                Get in Touch
+                {t('projectDetail.ctaButton')}
               </button>
             </div>
           </div>
@@ -123,7 +123,7 @@ function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) {
             className={`text-3xl font-light text-slate-900 mb-8 transition-all duration-1000 ${galleryVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`}
           >
-            Project Gallery
+            {t('projectDetail.projectGallery')}
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             {/* Show valid images from project.images array */}
@@ -144,13 +144,13 @@ function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) {
                 </div>
               ))
             ) : (
-              <div className="col-span-2 text-slate-500 italic">No gallery images available.</div>
+              <div className="col-span-2 text-slate-500 italic">{t('projectDetail.noImages')}</div>
             )}
           </div>
         </div>
 
         <div className="mt-20 pt-12 border-t border-slate-200">
-          <h3 className="text-2xl font-light text-slate-900 mb-8 text-center">More Projects</h3>
+          <h3 className="text-2xl font-light text-slate-900 mb-8 text-center">{t('projectDetail.moreProjects')}</h3>
           <div className="grid md:grid-cols-3 gap-8">
             {projectsData
               .filter((p) => p.slug !== slug)

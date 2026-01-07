@@ -58,6 +58,26 @@
       "industrial": "Endüstriyel",
       "residential": "Konut"
     },
+    "features": {
+      "customDesign": "Özel Tasarım",
+      "highPrecision": "Yüksek Hassasiyet",
+      "durability": "Dayanıklılık",
+      "seismicResistance": "Deprem Dayanımı",
+      "largeSpan": "Geniş Açıklık",
+      "fastAssembly": "Hızlı Montaj",
+      "uniqueDesign": "Benzersiz Tasarım",
+      "handcrafted": "El İşçiliği",
+      "weatherResistant": "Hava Koşullarına Dayanıklı",
+      "heavyLoad": "Ağır Yük Kapasitesi",
+      "modular": "Modüler",
+      "scalable": "Ölçeklenebilir",
+      "elegant": "Zarif",
+      "safetyCompliant": "Güvenlik Standartlarına Uygun",
+      "rustProof": "Paslanmaz",
+      "modern": "Modern",
+      "largeScale": "Büyük Ölçekli",
+      "interactive": "Etkileşimli"
+    },
     "precisionMetalFabrication": {
       "title": "Sızdırmaz Kaynak",
       "description": "Sızdırmaz kaynak işi, malzmeme 304 kalite paslanmaz çelik",
@@ -124,7 +144,16 @@
     "category": "Kategori",
     "projectDescription": "Proje Açıklaması",
     "keyFeatures": "Temel Özellikler",
-    "relatedProjects": "Benzer Projeler"
+    "relatedProjects": "Benzer Projeler",
+    "back": "Geri",
+    "overview": "Projeye Genel Bakış",
+    "ctaSimilar": "Benzer Bir Proje ile İlgileniyor musunuz?",
+    "ctaDesc": "Vizyonunuzu nasıl hayata geçirebileceğimizi konuşmak için bizimle iletişime geçin.",
+    "ctaButton": "İletişime Geçin",
+    "moreProjects": "Daha Fazla Proje",
+    "noFeatures": "Belirtilen özellik bulunmamaktadır.",
+    "noImages": "Galeri görseli bulunmamaktadır.",
+    "returnHome": "Ana Sayfaya Dön"
   },
   "footer": {
     "tagline": "Tüm kaynak ihtiyaçlarınız için kaliteli işçilik ve hassas çalışma sunan profesyonel kaynak hizmetleri.",

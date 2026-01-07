@@ -58,6 +58,26 @@
       "industrial": "Industrial",
       "residential": "Residential"
     },
+    "features": {
+      "customDesign": "Custom Design",
+      "highPrecision": "High Precision",
+      "durability": "Durability",
+      "seismicResistance": "Seismic Resistance",
+      "largeSpan": "Large Span",
+      "fastAssembly": "Fast Assembly",
+      "uniqueDesign": "Unique Design",
+      "handcrafted": "Handcrafted",
+      "weatherResistant": "Weather Resistant",
+      "heavyLoad": "Heavy Load",
+      "modular": "Modular",
+      "scalable": "Scalable",
+      "elegant": "Elegant",
+      "safetyCompliant": "Safety Compliant",
+      "rustProof": "Rust Proof",
+      "modern": "Modern",
+      "largeScale": "Large Scale",
+      "interactive": "Interactive"
+    },
     "precisionMetalFabrication": {
       "title": "Precision Metal Fabrication",
       "description": "Expert metal fabrication with clean, precise welding work.",
@@ -124,7 +144,16 @@
     "category": "Category",
     "projectDescription": "Project Description",
     "keyFeatures": "Key Features",
-    "relatedProjects": "Related Projects"
+    "relatedProjects": "Related Projects",
+    "back": "Back",
+    "overview": "Project Overview",
+    "ctaSimilar": "Interested in a Similar Project?",
+    "ctaDesc": "Contact us to discuss how we can bring your vision to life.",
+    "ctaButton": "Get in Touch",
+    "moreProjects": "More Projects",
+    "noFeatures": "No specific features listed.",
+    "noImages": "No gallery images available.",
+    "returnHome": "Return to home"
   },
   "footer": {
     "tagline": "Professional welding services delivering quality craftsmanship and precision work for all your welding needs.",
